@@ -1,5 +1,5 @@
 import  style  from "./styles.css"
-const conferenceLayout = ({children} : {children:string}) => {
+const conferenceLayout = ({children} : {children:React.ReactNode}) => {
     return(
         <div>
             <header style={style.header}>
@@ -9,4 +9,4 @@ const conferenceLayout = ({children} : {children:string}) => {
         </div>
     )
 }
-export default conferenceLayout;
+export default conferenceLayout; 
