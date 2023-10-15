@@ -15,7 +15,7 @@ const Page = () => {
          />
        <div><h1>Welcome to Home</h1></div>
        <h2>
-        <Link href = "/blog">blog</Link>
+        <Link href = "/blog">blogs</Link>
        </h2>
        <h2>
         <Link href = "/settings">settings</Link>
